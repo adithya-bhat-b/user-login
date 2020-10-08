@@ -1,0 +1,36 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "API for user login and signup.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test",
+    "start-dev": "npx sequelize-cli db:migrate && nodemon app.js",
+    "start": "npx sequelize-cli db:migrate && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adithya-bhat-b/user-login.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "sequelize",
+    "express"
+  ],
+  "author": "Adithya Bhat B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adithya-bhat-b/user-login/issues"
+  },
+  "homepage": "https://github.com/adithya-bhat-b/user-login#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "npx": "^10.2.2",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.0"
+  }
+}
