@@ -3,7 +3,7 @@
 
 ## How ro run the server
 
-1. Configure the server port in `config.js`.
+1. Configure the server port in `config/port.js`.
 2. Install the dependancies
 ```
 npm i
